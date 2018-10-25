@@ -8,3 +8,4 @@ def create_app():
     from app.api.v1 import version_1 as v1
     app.register_blueprint(v1)
     return app
+    
